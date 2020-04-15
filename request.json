@@ -1,0 +1,50 @@
+[
+  {
+    "customerID": "8e249dcb-b75a-4e42-af04-0615a29c52aa",
+    "tranID": "aba24ace-9efa-46d5-a1de-0ff31ed0913e",
+    "tranAmount": "56.50",
+    "tranDate": "2020-04-14 19:52:13Z"
+  },
+  {
+    "customerID": "8e249dcb-b75a-4e42-af04-0615a29c52aa",
+    "tranID": "c7d7ed8f-12c7-40b7-853b-85a4e779d0bd",
+    "tranAmount": "78.20",
+    "tranDate": "2020-04-13 19:52:13Z"
+  },
+  {
+    "customerID": "8e249dcb-b75a-4e42-af04-0615a29c52aa",
+    "tranID": "0f68e23a-dc11-4f18-8f03-08b2af85f04c",
+    "tranAmount": "120.00",
+    "tranDate": "2020-04-12 19:52:13Z"
+  },
+  {
+    "customerID": "8e249dcb-b75a-4e42-af04-0615a29c52aa",
+    "tranID": "129b175c-b7e9-49b0-a9cd-0d12590f78e6",
+    "tranAmount": "90.00",
+    "tranDate": "2020-03-14 19:52:13Z"
+  },
+  {
+    "customerID": "8e249dcb-b75a-4e42-af04-0615a29c52aa",
+    "tranID": "e5fb8b6a-98b0-44bd-8ce3-0a560676d7dc",
+    "tranAmount": "106.40",
+    "tranDate": "2020-02-14 19:52:13Z"
+  },
+  {
+    "customerID": "54fcfb9f-1ef8-4b1a-8c6e-d89e0f6a6c8f",
+    "tranID": "5be0e7f7-4667-45d4-be11-326fadd13443",
+    "tranAmount": "150.00",
+    "tranDate": "2020-04-14 19:52:13Z"
+  },
+  {
+    "customerID": "54fcfb9f-1ef8-4b1a-8c6e-d89e0f6a6c8f",
+    "tranID": "f924a744-b297-49e9-88d2-18652234dd39",
+    "tranAmount": "190.00",
+    "tranDate": "2020-03-14 19:52:13Z"
+  },
+  {
+    "customerID": "54fcfb9f-1ef8-4b1a-8c6e-d89e0f6a6c8f",
+    "tranID": "f2005b5e-46b2-41db-9c4e-dae6db6d306e",
+    "tranAmount": "175.60",
+    "tranDate": "2020-02-14 19:52:13Z"
+  }
+]
