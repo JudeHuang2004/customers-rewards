@@ -28,8 +28,35 @@ $ curl -X GET "http://localhost:8080/actuator/health"
 Browse to: 
 http://localhost:8080/swagger-ui.html#/
 
-test data set is available: ./request.json
-which can be used to test endpoint: /v1/customers/rewardpoints
-It's more convenient to test in Swagger UI:
-http://localhost:8080/swagger-ui.html#/Customers%20Rewards%20API/calcualteRewardPointsUsingPOST
+test data set will be loaded with json file: 
 
+./src/main/resources/transactions.json,
+
+which can be used to test endpoint: 
+
+/v1/customers/{customerID}/rewardpoints
+
+e.g. curl -X GET "http://localhost:8080/v1/customers/8e249dcb-b75a-4e42-af04-0615a29c52aa/rewardpoints"
+
+expected response:
+----
+```json
+{
+  "customerID": "8e249dcb-b75a-4e42-af04-0615a29c52aa",
+  "totalPoints": 226,
+  "summarylist": [
+    {
+      "rewardsMonth": "2020-04",
+      "monthlyPoints": 124
+    },
+    {
+      "rewardsMonth": "2020-03",
+      "monthlyPoints": 40
+    },
+    {
+      "rewardsMonth": "2020-02",
+      "monthlyPoints": 62
+    }
+  ]
+}
+```

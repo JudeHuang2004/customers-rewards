@@ -19,7 +19,7 @@ public class Transaction {
     private BigDecimal tranAmount;
 
     @ApiModelProperty(required =true)
-    private String tranDate; // expected format: "yyyy-MM-dd HH:mm:ss'Z'", Timezone: "UTC"
+    private String tranDate; // expected format: "yyyy-MM-dd'T'HH:mm:ss'Z'", Timezone: "UTC"
 
     public String getCustomerID() {
         return customerID;
