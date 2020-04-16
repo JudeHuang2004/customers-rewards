@@ -16,13 +16,18 @@ Check solution into GitHub
 ## Usage
 
 ### Start up the project:
-
+```bash
 $ ./mvnw clean
+
 $ ./mvnw package
+
 $ ./mvnw spring-boot:run
+```
 
 ### Actuator health
+```bash
 $ curl -X GET "http://localhost:8080/actuator/health"
+```
 
 ### Swagger UI:
 Browse to: 
@@ -36,10 +41,12 @@ which can be used to test endpoint:
 
 /v1/customers/{customerID}/rewardpoints
 
-e.g. curl -X GET "http://localhost:8080/v1/customers/8e249dcb-b75a-4e42-af04-0615a29c52aa/rewardpoints"
-
+e.g. 
+```bash
+$ curl -X GET "http://localhost:8080/v1/customers/8e249dcb-b75a-4e42-af04-0615a29c52aa/rewardpoints"
+```
 expected response:
-----
+
 ```json
 {
   "customerID": "8e249dcb-b75a-4e42-af04-0615a29c52aa",
